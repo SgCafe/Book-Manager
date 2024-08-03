@@ -434,11 +434,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Sérgio\\workspace\\pessoal\\Book Manager\\Book Manager.API\\Book Manager.API.csproj",
+      "projectUniqueName": "C:\\Users\\Sérgio\\workspace\\pessoal\\Book-Manager\\Book Manager.API\\Book Manager.API.csproj",
       "projectName": "Book Manager.API",
-      "projectPath": "C:\\Users\\Sérgio\\workspace\\pessoal\\Book Manager\\Book Manager.API\\Book Manager.API.csproj",
+      "projectPath": "C:\\Users\\Sérgio\\workspace\\pessoal\\Book-Manager\\Book Manager.API\\Book Manager.API.csproj",
       "packagesPath": "C:\\Users\\Sérgio\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Sérgio\\workspace\\pessoal\\Book Manager\\Book Manager.API\\obj\\",
+      "outputPath": "C:\\Users\\Sérgio\\workspace\\pessoal\\Book-Manager\\Book Manager.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
