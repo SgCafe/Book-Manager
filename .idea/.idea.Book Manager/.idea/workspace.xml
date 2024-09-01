@@ -5,8 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="adb21c9c-ac2a-4e4e-9e50-94c722d3d286" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Book Manager/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Book Manager/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Book Manager.API/obj/Book Manager.API.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Book Manager.API/obj/Book Manager.API.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Book Manager.API/obj/Book Manager.API.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Book Manager.API/obj/Book Manager.API.csproj.nuget.g.props" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Book Manager.API/obj/Debug/net8.0/Book Manager.API.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Book Manager.API/obj/Debug/net8.0/Book Manager.API.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Book Manager.API/obj/Debug/net8.0/Book Manager.API.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Book Manager.API/obj/Debug/net8.0/Book Manager.API.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Book Manager.API/obj/Debug/net8.0/Book Manager.API.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Book Manager.API/obj/Debug/net8.0/Book Manager.API.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Book Manager.API/obj/Debug/net8.0/Book Manager.API.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Book Manager.API/obj/Debug/net8.0/Book Manager.API.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Book Manager.API/obj/Debug/net8.0/Book Manager.API.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Book Manager.API/obj/Debug/net8.0/Book Manager.API.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Book Manager.API/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Book Manager.API/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Book Manager.API/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Book Manager.API/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Book Manager.API/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Book Manager.API/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Book Manager.API/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/Book Manager.API/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Book Manager.API/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Book Manager.API/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,12 +33,12 @@
     &quot;assignee&quot;: &quot;SgCafe&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/SgCafe/Book-Manager.git&quot;,
-    &quot;accountId&quot;: &quot;5af2d627-831c-4918-b81d-a8d44f75dce9&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/SgCafe/Book-Manager.git",
+    "accountId": "42e916e6-8af4-4ec7-be83-5e586a9fc7f6"
   }
-}</component>
+}]]></component>
   <component name="KubernetesApiPersistence">{}</component>
   <component name="KubernetesApiProvider">{
   &quot;isMigrated&quot;: true
@@ -58,9 +69,9 @@
   },
   "keyToStringList": {
     "rider.external.source.directories": [
-      "C:\\Users\\Sérgio\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\DecompilerCache",
-      "C:\\Users\\Sérgio\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\SourcesCache",
-      "C:\\Users\\Sérgio\\AppData\\Local\\Symbols\\src"
+      "C:\\Users\\Sergio\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\DecompilerCache",
+      "C:\\Users\\Sergio\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\SourcesCache",
+      "C:\\Users\\Sergio\\AppData\\Local\\Symbols\\src"
     ]
   }
 }]]></component>
@@ -122,6 +133,7 @@
       <workItem from="1722595083625" duration="5035000" />
       <workItem from="1722682914138" duration="293000" />
       <workItem from="1722683307140" duration="124000" />
+      <workItem from="1725199372092" duration="4252000" />
     </task>
     <servers />
   </component>
