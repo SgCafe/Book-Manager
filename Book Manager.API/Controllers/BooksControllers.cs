@@ -3,11 +3,10 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Book_Manager.API.Controllers;
 
-    [Route("api/books")]
-    [ApiController]
+[ApiController]
+[Route("api/books")]
 public class BooksControllers : ControllerBase
 {
-
     [HttpGet]
     public IActionResult GetAll(string search)
     {
@@ -21,9 +20,9 @@ public class BooksControllers : ControllerBase
     }
 
     [HttpPost]
-    public IActionResult Post(CreateBookInputModel model, int id)
+    public IActionResult Post(CreateBookInputModel model)
     {
-        return CreatedAtAction(nameof(GetById), new { id = 1 }, model);
+        return NoContent();
     }
 
     [HttpDelete("{id}")]

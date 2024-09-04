@@ -1,9 +1,10 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Book_Manager.API.Models;
+using Microsoft.AspNetCore.Mvc;
 
 namespace Book_Manager.API.Controllers;
 
-[Route("api/users")]
 [ApiController]
+[Route("api/users")]
 public class UsersControllers : ControllerBase
 {
     [HttpGet]
@@ -19,19 +20,7 @@ public class UsersControllers : ControllerBase
     }
 
     [HttpPost]
-    public IActionResult Post()
-    {
-        return NoContent();
-    }
-
-    [HttpPut("{id}")]
-    public IActionResult Put(int id)
-    {
-        return Ok();
-    }
-
-    [HttpDelete("{id}")]
-    public IActionResult Delete(int id)
+    public IActionResult Post(CreateUserInputModel model)
     {
         return NoContent();
     }

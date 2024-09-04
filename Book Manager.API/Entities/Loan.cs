@@ -1,17 +1,52 @@
-﻿namespace Book_Manager.API.Entities;
+﻿using Book_Manager.API.Enums;
+
+namespace Book_Manager.API.Entities;
 
 public class Loan : BaseEntity
 {
-    public Loan(string name, string email, string phone)
+    public Loan(int bookId, int userId, decimal cost)
     : base()
     {
-        Name = name;
-        Email = email;
-        Phone = phone;
+        BookId = bookId;
+        UserId = userId;
+        Status = LoanStatusEnum.Available;
+        Cost = cost;
     }
 
     public int Id { get; private set; }
-    public string Name { get; private set; }
-    public string Email { get; private set; }
-    public string Phone { get; private set; }
+    public DateTime LoanDate { get; private set; }
+    public DateTime ReturnDate { get; private set; }
+    public LoanStatusEnum Status { get; private set; }
+    public decimal Cost { get; private set; }
+
+    public int BookId { get; private set; }
+    public Book Book { get; private set; }
+    public int UserId { get; private set; }
+    public User User { get; private set; }
+
+    public void Lend()
+    {
+        if (Status == LoanStatusEnum.Available)
+        {
+            Status = LoanStatusEnum.Borrowed;
+            LoanDate = DateTime.Now;
+            ReturnDate = LoanDate.AddDays(7);   
+        }
+    }
+
+    public void Returned()
+    {
+        if (Status == LoanStatusEnum.Borrowed)
+        {
+            Status = LoanStatusEnum.Returned;
+        }
+    }
+    
+    public void Unavailable()
+    {
+        if (Status == LoanStatusEnum.None || Status == LoanStatusEnum.Unavailable)
+        {
+            Status = LoanStatusEnum.Unavailable;
+        }
+    }
 }

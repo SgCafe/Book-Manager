@@ -1,10 +1,11 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Book_Manager.API.Models;
+using Microsoft.AspNetCore.Mvc;
 
 namespace Book_Manager.API.Controllers;
 
 [ApiController]
 [Route("api/loans")]
-public class LoansConstrollers : ControllerBase
+public class LoansControllers : ControllerBase
 {
     [HttpGet]
     public IActionResult GetAll(string search = "")
@@ -19,7 +20,7 @@ public class LoansConstrollers : ControllerBase
     }
 
     [HttpPost]
-    public IActionResult Post()
+    public IActionResult Post(CreateLoanInputModel model)
     {
         return NoContent();
     }
