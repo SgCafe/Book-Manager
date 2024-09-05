@@ -17,6 +17,8 @@ public class Book : BaseEntity
     public int PublishedYear { get; private set; }
     public string Genre { get; private set; }
 
+    public List<Loan> Loans { get; private set; }
+
     public void Update(string title, string author, int publishedYear, string genre)
     {
         Title = title;

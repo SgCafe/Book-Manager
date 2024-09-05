@@ -6,17 +6,21 @@
   <component name="ChangeListManager">
     <list default="true" id="adb21c9c-ac2a-4e4e-9e50-94c722d3d286" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Book Manager/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Book Manager/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Book Manager.API/Controllers/BooksControllers.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Book Manager.API/Controllers/BooksControllers.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Book Manager.API/Controllers/LoansConstrollers.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Book Manager.API/Controllers/LoansControllers.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Book Manager.API/Controllers/UsersControllers.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Book Manager.API/Controllers/UsersControllers.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Book Manager.API/Entities/Book.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Book Manager.API/Entities/Book.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Book Manager.API/Entities/Loan.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Book Manager.API/Entities/Loan.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Book Manager.API/Entities/User.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Book Manager.API/Entities/User.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Book Manager.API/Models/CreateBookInputModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Book Manager.API/Models/CreateBookInputModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Book Manager.API/Book Manager.API.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Book Manager.API/Book Manager.API.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Book Manager.API/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Book Manager.API/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Book Manager.API/obj/Book Manager.API.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Book Manager.API/obj/Book Manager.API.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Book Manager.API/obj/Book Manager.API.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Book Manager.API/obj/Book Manager.API.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Book Manager.API/obj/Book Manager.API.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/Book Manager.API/obj/Book Manager.API.csproj.nuget.g.targets" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Book Manager.API/obj/Debug/net8.0/Book Manager.API.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Book Manager.API/obj/Debug/net8.0/Book Manager.API.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Book Manager.API/obj/Debug/net8.0/Book Manager.API.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Book Manager.API/obj/Debug/net8.0/Book Manager.API.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Book Manager.API/obj/Debug/net8.0/Book Manager.API.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Book Manager.API/obj/Debug/net8.0/Book Manager.API.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Book Manager.API/obj/Debug/net8.0/Book Manager.API.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Book Manager.API/obj/Debug/net8.0/Book Manager.API.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Book Manager.API/obj/Debug/net8.0/Book Manager.API.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Book Manager.API/obj/Debug/net8.0/Book Manager.API.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Book Manager.API/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Book Manager.API/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Book Manager.API/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Book Manager.API/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Book Manager.API/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Book Manager.API/obj/project.packagespec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Book Manager.API/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/Book Manager.API/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Book Manager.API/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Book Manager.API/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,6 +138,7 @@
       <workItem from="1722683307140" duration="124000" />
       <workItem from="1725199372092" duration="10416000" />
       <workItem from="1725318584269" duration="6518000" />
+      <workItem from="1725493472322" duration="1119000" />
     </task>
     <servers />
   </component>
