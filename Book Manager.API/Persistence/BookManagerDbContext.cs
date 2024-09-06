@@ -32,7 +32,7 @@ public class BookManagerDbContext : DbContext
             .Entity<Loan>(e =>
             {
                 e.HasKey(l => l.Id);
-
+                
                 e.HasOne(l => l.User)
                     .WithMany(u => u.Loans)
                     .HasForeignKey(l => l.UserId);

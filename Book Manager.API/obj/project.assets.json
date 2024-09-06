@@ -568,6 +568,22 @@
           "build/net8.0/Microsoft.EntityFrameworkCore.Design.props": {}
         }
       },
+      "Microsoft.EntityFrameworkCore.InMemory/9.0.0-preview.7.24405.3": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "9.0.0-preview.7.24405.3"
+        },
+        "compile": {
+          "lib/net8.0/Microsoft.EntityFrameworkCore.InMemory.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.EntityFrameworkCore.InMemory.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.EntityFrameworkCore.Relational/9.0.0-preview.7.24405.3": {
         "type": "package",
         "dependencies": {
@@ -2931,6 +2947,21 @@
         "microsoft.entityframeworkcore.design.nuspec"
       ]
     },
+    "Microsoft.EntityFrameworkCore.InMemory/9.0.0-preview.7.24405.3": {
+      "sha512": "6AAXcSCELY3ms+vt2TSsDQ3zLyNBwSFtPGzbzXPgv4N3CBJFLje6w79j7nJx65bLR9SoDsfbs/WpDG0vTNn5rQ==",
+      "type": "package",
+      "path": "microsoft.entityframeworkcore.inmemory/9.0.0-preview.7.24405.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "PACKAGE.md",
+        "lib/net8.0/Microsoft.EntityFrameworkCore.InMemory.dll",
+        "lib/net8.0/Microsoft.EntityFrameworkCore.InMemory.xml",
+        "microsoft.entityframeworkcore.inmemory.9.0.0-preview.7.24405.3.nupkg.sha512",
+        "microsoft.entityframeworkcore.inmemory.nuspec"
+      ]
+    },
     "Microsoft.EntityFrameworkCore.Relational/9.0.0-preview.7.24405.3": {
       "sha512": "s6J1AyS8AGhdhc9CvPe45qzqEHTOlw+y8+GvDC9GY/kx2x2xFD87924iqm6MjmVwFnfZGlqxKzaA47voHaLhXw==",
       "type": "package",
@@ -5075,29 +5106,38 @@
   "projectFileDependencyGroups": {
     "net8.0": [
       "Microsoft.EntityFrameworkCore.Design >= 9.0.0-preview.7.24405.3",
+      "Microsoft.EntityFrameworkCore.InMemory >= 9.0.0-preview.7.24405.3",
       "Microsoft.EntityFrameworkCore.SqlServer >= 9.0.0-preview.7.24405.3",
       "Swashbuckle.AspNetCore >= 6.4.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Sergio\\.nuget\\packages\\": {}
+    "C:\\Users\\Sérgio\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Sergio\\Documents\\GitHub\\Book-Manager\\Book Manager.API\\Book Manager.API.csproj",
+      "projectUniqueName": "C:\\Users\\Sérgio\\workspace\\pessoal\\Book-Manager\\Book Manager.API\\Book Manager.API.csproj",
       "projectName": "Book Manager.API",
-      "projectPath": "C:\\Users\\Sergio\\Documents\\GitHub\\Book-Manager\\Book Manager.API\\Book Manager.API.csproj",
-      "packagesPath": "C:\\Users\\Sergio\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Sergio\\Documents\\GitHub\\Book-Manager\\Book Manager.API\\obj\\",
+      "projectPath": "C:\\Users\\Sérgio\\workspace\\pessoal\\Book-Manager\\Book Manager.API\\Book Manager.API.csproj",
+      "packagesPath": "C:\\Users\\Sérgio\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Sérgio\\workspace\\pessoal\\Book-Manager\\Book Manager.API\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Sergio\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Sérgio\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -5119,6 +5159,10 @@
           "Microsoft.EntityFrameworkCore.Design": {
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
             "suppressParent": "All",
+            "target": "Package",
+            "version": "[9.0.0-preview.7.24405.3, )"
+          },
+          "Microsoft.EntityFrameworkCore.InMemory": {
             "target": "Package",
             "version": "[9.0.0-preview.7.24405.3, )"
           },
@@ -5150,7 +5194,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Users\\Sergio\\.dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

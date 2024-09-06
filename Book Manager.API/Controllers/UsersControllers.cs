@@ -1,4 +1,5 @@
 ﻿using Book_Manager.API.Models;
+using Book_Manager.API.Persistence;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Book_Manager.API.Controllers;
@@ -7,21 +8,49 @@ namespace Book_Manager.API.Controllers;
 [Route("api/users")]
 public class UsersControllers : ControllerBase
 {
+    private readonly BookManagerDbContext _context;
+
+    public UsersControllers(BookManagerDbContext context)
+    {
+        _context = context;
+    }
+    
     [HttpGet]
     public IActionResult GetAll(string search = "")
     {
-        return Ok();
+        var user = _context.Users
+            .Where(u => !u.IsDeleted)
+            .ToList();
+
+        var model = user.Select(UsersViewModel.FromEntity).ToList();
+        
+        return Ok(model);
     }
 
     [HttpGet("{id}")]
     public IActionResult GetById(int id)
     {
-        return Ok();
+        //Falta o Include
+        var user = _context.Users
+            .SingleOrDefault(u => u.Id == id);
+
+        if (user is null)
+        {
+            return NotFound();
+        }
+
+        var model = UsersViewModel.FromEntity(user);
+        return Ok(model);
     }
 
     [HttpPost]
     public IActionResult Post(CreateUserInputModel model)
     {
+        var user = model.ToEntity();
+
+        _context.Users.Add(user);
+        _context.SaveChangesAsync();
+        
         return NoContent();
     }
 }
