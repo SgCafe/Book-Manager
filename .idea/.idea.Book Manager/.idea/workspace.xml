@@ -5,14 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="adb21c9c-ac2a-4e4e-9e50-94c722d3d286" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Book Manager/.idea/material_theme_project_new.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Book Manager/.idea/material_theme_project_new.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Book Manager/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Book Manager/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Book Manager.API/Book Manager.API.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Book Manager.API/Book Manager.API.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Book Manager.API/Controllers/BooksControllers.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Book Manager.API/Controllers/BooksControllers.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Book Manager.API/Controllers/UsersControllers.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Book Manager.API/Controllers/UsersControllers.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Book Manager.API/Entities/User.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Book Manager.API/Entities/User.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Book Manager.API/Models/BooksViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Book Manager.API/Models/BooksViewModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Book Manager.API/Models/CreateBookInputModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Book Manager.API/Models/CreateBookInputModel.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Book Manager.API/Models/CreateUserInputModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Book Manager.API/Models/CreateUserInputModel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Book Manager.API/Persistence/BookManagerDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Book Manager.API/Persistence/BookManagerDbContext.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Book Manager.API/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Book Manager.API/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Book Manager.API/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Book Manager.API/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Book Manager.API/bin/Debug/net8.0/Book Manager.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Book Manager.API/bin/Debug/net8.0/Book Manager.API.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Book Manager.API/bin/Debug/net8.0/Book Manager.API.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Book Manager.API/bin/Debug/net8.0/Book Manager.API.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Book Manager.API/bin/Debug/net8.0/Book Manager.API.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Book Manager.API/bin/Debug/net8.0/Book Manager.API.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Book Manager.API/obj/Book Manager.API.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Book Manager.API/obj/Book Manager.API.csproj.nuget.dgspec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Book Manager.API/obj/Book Manager.API.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Book Manager.API/obj/Book Manager.API.csproj.nuget.g.props" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Book Manager.API/obj/Debug/net8.0/Book Manager.API.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Book Manager.API/obj/Debug/net8.0/Book Manager.API.AssemblyInfo.cs" afterDir="false" />
@@ -20,6 +23,15 @@
       <change beforePath="$PROJECT_DIR$/Book Manager.API/obj/Debug/net8.0/Book Manager.API.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Book Manager.API/obj/Debug/net8.0/Book Manager.API.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Book Manager.API/obj/Debug/net8.0/Book Manager.API.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Book Manager.API/obj/Debug/net8.0/Book Manager.API.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Book Manager.API/obj/Debug/net8.0/Book Manager.API.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Book Manager.API/obj/Debug/net8.0/Book Manager.API.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Book Manager.API/obj/Debug/net8.0/Book Manager.API.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Book Manager.API/obj/Debug/net8.0/Book Manager.API.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Book Manager.API/obj/Debug/net8.0/Book Manager.API.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Book Manager.API/obj/Debug/net8.0/Book Manager.API.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Book Manager.API/obj/Debug/net8.0/Book Manager.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Book Manager.API/obj/Debug/net8.0/Book Manager.API.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Book Manager.API/obj/Debug/net8.0/Book Manager.API.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Book Manager.API/obj/Debug/net8.0/Book Manager.API.genruntimeconfig.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Book Manager.API/obj/Debug/net8.0/Book Manager.API.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Book Manager.API/obj/Debug/net8.0/Book Manager.API.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Book Manager.API/obj/Debug/net8.0/Book Manager.API.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/Book Manager.API/obj/Debug/net8.0/Book Manager.API.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Book Manager.API/obj/Debug/net8.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Book Manager.API/obj/Debug/net8.0/apphost.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Book Manager.API/obj/Debug/net8.0/ref/Book Manager.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Book Manager.API/obj/Debug/net8.0/ref/Book Manager.API.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Book Manager.API/obj/Debug/net8.0/refint/Book Manager.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Book Manager.API/obj/Debug/net8.0/refint/Book Manager.API.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Book Manager.API/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Book Manager.API/obj/project.assets.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Book Manager.API/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Book Manager.API/obj/project.nuget.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Book Manager.API/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Book Manager.API/obj/project.packagespec.json" afterDir="false" />
@@ -40,14 +52,15 @@
     &quot;assignee&quot;: &quot;SgCafe&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/SgCafe/Book-Manager.git",
-    "accountId": "5af2d627-831c-4918-b81d-a8d44f75dce9"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/SgCafe/Book-Manager.git&quot;,
+    &quot;accountId&quot;: &quot;42e916e6-8af4-4ec7-be83-5e586a9fc7f6&quot;
   }
-}]]></component>
+}</component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/d3a451850004403293b134b9fe18ce3fc8f920/fc/531cff7f/List`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/runtime/0d79e6de8dbc26a44dde336a9a680940e92e9904/src/libraries/System.Diagnostics.DiagnosticSource/src/System/Diagnostics/DiagnosticListener.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/runtime/2aade6beb02ea367fd97c4070a4198802fe61c03/src/libraries/System.Linq/src/System/Linq/ThrowHelper.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="KubernetesApiPersistence">{}</component>
   <component name="KubernetesApiProvider">{
@@ -67,8 +80,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    ".NET Launch Settings Profile.Book Manager.API: IIS Express.executor": "Debug",
+    ".NET Launch Settings Profile.Book Manager.API: https.executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "develop",
+    "git-widget-placeholder": "main",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -79,13 +94,13 @@
   },
   "keyToStringList": {
     "rider.external.source.directories": [
-      "C:\\Users\\Sérgio\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\DecompilerCache",
-      "C:\\Users\\Sérgio\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\SourcesCache",
-      "C:\\Users\\Sérgio\\AppData\\Local\\Symbols\\src"
+      "C:\\Users\\Sergio\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\DecompilerCache",
+      "C:\\Users\\Sergio\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\SourcesCache",
+      "C:\\Users\\Sergio\\AppData\\Local\\Symbols\\src"
     ]
   }
 }]]></component>
-  <component name="RunManager" selected=".NET Launch Settings Profile.Book Manager.API: IIS Express">
+  <component name="RunManager" selected=".NET Launch Settings Profile.Book Manager.API: https">
     <configuration name="Book Manager.API: IIS Express" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/Book Manager.API/Book Manager.API.csproj" />
       <option name="LAUNCH_PROFILE_TFM" value="net8.0" />
@@ -147,6 +162,8 @@
       <workItem from="1725318584269" duration="6518000" />
       <workItem from="1725493472322" duration="1119000" />
       <workItem from="1725568021449" duration="6123000" />
+      <workItem from="1725585774051" duration="3063000" />
+      <workItem from="1725731426391" duration="6591000" />
     </task>
     <servers />
   </component>
@@ -165,5 +182,24 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Book Manager.API/Controllers/UsersControllers.cs</url>
+          <line>47</line>
+          <properties documentPath="C:\Users\Sergio\Documents\GitHub\Book-Manager\Book Manager.API\Controllers\UsersControllers.cs" containingFunctionPresentation="Method 'Post'">
+            <startOffsets>
+              <option value="1080" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1081" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

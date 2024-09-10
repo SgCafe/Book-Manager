@@ -10,5 +10,5 @@ public class CreateUserInputModel
     public string Phone { get; set; }
 
     public User ToEntity()
-        => new(FullName, Birthdate, Email, Phone);
+        => new(FullName, Birthdate, Email, Phone, true);
 }

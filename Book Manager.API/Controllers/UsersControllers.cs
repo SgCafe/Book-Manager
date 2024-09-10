@@ -48,6 +48,11 @@ public class UsersControllers : ControllerBase
     {
         var user = model.ToEntity();
 
+        if (model == null)
+        {
+            return BadRequest("Erro ta aqui krl");
+        }
+
         _context.Users.Add(user);
         _context.SaveChangesAsync();
         

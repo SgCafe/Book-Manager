@@ -2,13 +2,15 @@
 
 public class User : BaseEntity
 {
-    public User(string fullName, DateTime birthdate, string email, string phone) : base()
+    public User(string fullName, DateTime birthdate, string email, string phone, bool active) : base()
     {
         FullName = fullName;
         Birthdate = birthdate;
         Email = email;
         Phone = phone;
         Active = true;
+
+        Loans = new List<Loan>();
     }
 
     public int Id { get; private set; }

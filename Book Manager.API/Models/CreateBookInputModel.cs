@@ -1,4 +1,6 @@
-﻿namespace Book_Manager.API.Models;
+﻿using Book_Manager.API.Entities;
+
+namespace Book_Manager.API.Models;
 
 public class CreateBookInputModel
 {
@@ -6,4 +8,7 @@ public class CreateBookInputModel
     public string Author { get; set; }
     public int PublishedYear { get; set; }
     public string Genre { get; set; }
+
+    public Book ToEntity()
+        => new(Title, Author, PublishedYear, Genre);
 }
