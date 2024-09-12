@@ -49,4 +49,10 @@ public class Loan : BaseEntity
             Status = LoanStatusEnum.Unavailable;
         }
     }
+
+    public void Update(int bookId, decimal cost)
+    {
+        BookId = bookId;
+        Cost = cost;
+    }
 }

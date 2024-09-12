@@ -9,6 +9,7 @@ public class Book : BaseEntity
         Author = author;
         PublishedYear = publishedYear;
         Genre = genre;
+        Loans = new List<Loan>();
     }
 
     public int Id { get; private set; }

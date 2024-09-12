@@ -6,14 +6,14 @@ namespace Book_Manager.API.Persistence;
 public class BookManagerDbContext : DbContext
 {
     public BookManagerDbContext(DbContextOptions<BookManagerDbContext> options) 
-        : base()
+        : base(options)
     {
         
     }
 
-    public List<Book> Books { get; set; }
-    public List<Loan> Loans { get; set; }
-    public List<User> Users { get; set; }
+    public DbSet<Book> Books { get; set; }
+    public DbSet<Loan> Loans { get; set; }
+    public DbSet<User> Users { get; set; }
 
     protected override void OnModelCreating(ModelBuilder builder)
     {

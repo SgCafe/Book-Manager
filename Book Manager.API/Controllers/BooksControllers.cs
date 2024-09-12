@@ -16,18 +16,19 @@ public class BooksControllers : ControllerBase
     }
     
     [HttpGet]
-    public IActionResult GetAll(string search)
+    public IActionResult GetAll(string search = "")
     {
-        var books = _context.Books.ToList();
+        var books = _context.Books.Where(b => !b.IsDeleted).ToList();
+
+        var model = books.Select(BooksViewModel.FromEntity).ToList();
         
-        return Ok(books);
+        return Ok(model);
     }
 
     [HttpGet("{id}")]
     public IActionResult GetById(int id)
     {
-        var book = _context.Books
-            .SingleOrDefault(b => b.Id == id);
+        var book = _context.Books.SingleOrDefault(b => b.Id == id);
 
         if (book is null)
         {
@@ -36,23 +37,35 @@ public class BooksControllers : ControllerBase
         
         var model = BooksViewModel.FromEntity(book);
         
-        return Ok();
+        return Ok(model);
     }
 
     [HttpPost]
-    public IActionResult Post(CreateBookInputModel model)
+    public async Task<IActionResult> Post(CreateBookInputModel model)
     {
         var book = model.ToEntity();
         
         _context.Books.Add(book);
-        _context.SaveChangesAsync();
+        await _context.SaveChangesAsync();
         
         return NoContent();
     }
 
     [HttpDelete("{id}")]
-    public IActionResult Delete(int id)
+    public async Task<IActionResult> Delete(int id)
     {
+        var book = _context.Books.SingleOrDefault(b => b.Id == id);
+
+        if (book is null)
+        {
+            return NotFound();
+        }
+
+        book.SetAsDeleted();
+
+        _context.Books.Update(book);
+        await _context.SaveChangesAsync();
+
         return Ok();
     }
 }

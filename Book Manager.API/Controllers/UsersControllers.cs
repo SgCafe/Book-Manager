@@ -1,6 +1,7 @@
 ﻿using Book_Manager.API.Models;
 using Book_Manager.API.Persistence;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace Book_Manager.API.Controllers;
 
@@ -19,6 +20,8 @@ public class UsersControllers : ControllerBase
     public IActionResult GetAll(string search = "")
     {
         var user = _context.Users
+            .Include(u => u.Loans)
+                .ThenInclude(b => b.Book)
             .Where(u => !u.IsDeleted)
             .ToList();
 
@@ -30,8 +33,9 @@ public class UsersControllers : ControllerBase
     [HttpGet("{id}")]
     public IActionResult GetById(int id)
     {
-        //Falta o Include
         var user = _context.Users
+            .Include(l => l.Loans)
+                .ThenInclude(b => b.Book)
             .SingleOrDefault(u => u.Id == id);
 
         if (user is null)
@@ -50,7 +54,7 @@ public class UsersControllers : ControllerBase
 
         if (model == null)
         {
-            return BadRequest("Erro ta aqui krl");
+            return NotFound();
         }
 
         _context.Users.Add(user);

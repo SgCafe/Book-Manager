@@ -10,7 +10,9 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-builder.Services.AddDbContext<BookManagerDbContext>(o => o.UseInMemoryDatabase("BookManagerCsNotebook"));
+//builder.Services.AddDbContext<BookManagerDbContext>(o => o.UseInMemoryDatabase("BookManagerCsNotebook"));
+var connectionString = builder.Configuration.GetConnectionString("BookManagerCsPc");
+builder.Services.AddDbContext<BookManagerDbContext>(o => o.UseSqlServer(connectionString));
 
 var app = builder.Build();
 

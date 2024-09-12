@@ -7,12 +7,13 @@
     <list default="true" id="adb21c9c-ac2a-4e4e-9e50-94c722d3d286" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Book Manager/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Book Manager/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Book Manager.API/Controllers/BooksControllers.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Book Manager.API/Controllers/BooksControllers.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Book Manager.API/Controllers/LoansControllers.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Book Manager.API/Controllers/LoansControllers.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Book Manager.API/Controllers/UsersControllers.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Book Manager.API/Controllers/UsersControllers.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Book Manager.API/Entities/User.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Book Manager.API/Entities/User.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Book Manager.API/Models/BooksViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Book Manager.API/Models/BooksViewModel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Book Manager.API/Models/CreateBookInputModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Book Manager.API/Models/CreateBookInputModel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Book Manager.API/Models/CreateUserInputModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Book Manager.API/Models/CreateUserInputModel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Book Manager.API/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Book Manager.API/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Book Manager.API/Entities/BaseEntity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Book Manager.API/Entities/BaseEntity.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Book Manager.API/Entities/Book.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Book Manager.API/Entities/Book.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Book Manager.API/Entities/Loan.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Book Manager.API/Entities/Loan.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Book Manager.API/Models/CreateLoanInputModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Book Manager.API/Models/CreateLoanInputModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Book Manager.API/Persistence/BookManagerDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Book Manager.API/Persistence/BookManagerDbContext.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Book Manager.API/bin/Debug/net8.0/Book Manager.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Book Manager.API/bin/Debug/net8.0/Book Manager.API.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Book Manager.API/bin/Debug/net8.0/Book Manager.API.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Book Manager.API/bin/Debug/net8.0/Book Manager.API.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Book Manager.API/bin/Debug/net8.0/Book Manager.API.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Book Manager.API/bin/Debug/net8.0/Book Manager.API.pdb" afterDir="false" />
@@ -24,7 +25,6 @@
       <change beforePath="$PROJECT_DIR$/Book Manager.API/obj/Debug/net8.0/Book Manager.API.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Book Manager.API/obj/Debug/net8.0/Book Manager.API.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Book Manager.API/obj/Debug/net8.0/Book Manager.API.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Book Manager.API/obj/Debug/net8.0/Book Manager.API.csproj.AssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Book Manager.API/obj/Debug/net8.0/Book Manager.API.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Book Manager.API/obj/Debug/net8.0/Book Manager.API.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Book Manager.API/obj/Debug/net8.0/Book Manager.API.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Book Manager.API/obj/Debug/net8.0/Book Manager.API.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Book Manager.API/obj/Debug/net8.0/Book Manager.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Book Manager.API/obj/Debug/net8.0/Book Manager.API.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Book Manager.API/obj/Debug/net8.0/Book Manager.API.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Book Manager.API/obj/Debug/net8.0/Book Manager.API.genruntimeconfig.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Book Manager.API/obj/Debug/net8.0/Book Manager.API.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Book Manager.API/obj/Debug/net8.0/Book Manager.API.pdb" afterDir="false" />
@@ -43,6 +43,9 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DpaMonitoringSettings">
+    <option name="autoShow" value="false" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -55,7 +58,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/SgCafe/Book-Manager.git&quot;,
-    &quot;accountId&quot;: &quot;42e916e6-8af4-4ec7-be83-5e586a9fc7f6&quot;
+    &quot;accountId&quot;: &quot;5af2d627-831c-4918-b81d-a8d44f75dce9&quot;
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
@@ -78,28 +81,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    ".NET Launch Settings Profile.Book Manager.API: IIS Express.executor": "Debug",
-    ".NET Launch Settings Profile.Book Manager.API: https.executor": "Debug",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.editor",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;.NET Launch Settings Profile.Book Manager.API: IIS Express.executor&quot;: &quot;Debug&quot;,
+    &quot;.NET Launch Settings Profile.Book Manager.API: https.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;develop&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.tabs&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "rider.external.source.directories": [
-      "C:\\Users\\Sergio\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\DecompilerCache",
-      "C:\\Users\\Sergio\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\SourcesCache",
-      "C:\\Users\\Sergio\\AppData\\Local\\Symbols\\src"
+  &quot;keyToStringList&quot;: {
+    &quot;rider.external.source.directories&quot;: [
+      &quot;C:\\Users\\Sérgio\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\DecompilerCache&quot;,
+      &quot;C:\\Users\\Sérgio\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\SourcesCache&quot;,
+      &quot;C:\\Users\\Sérgio\\AppData\\Local\\Symbols\\src&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected=".NET Launch Settings Profile.Book Manager.API: https">
     <configuration name="Book Manager.API: IIS Express" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/Book Manager.API/Book Manager.API.csproj" />
@@ -164,6 +167,10 @@
       <workItem from="1725568021449" duration="6123000" />
       <workItem from="1725585774051" duration="3063000" />
       <workItem from="1725731426391" duration="6591000" />
+      <workItem from="1725926877517" duration="1204000" />
+      <workItem from="1725983882082" duration="692000" />
+      <workItem from="1725992905312" duration="2638000" />
+      <workItem from="1726002438337" duration="201000" />
     </task>
     <servers />
   </component>
@@ -188,15 +195,8 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Book Manager.API/Controllers/UsersControllers.cs</url>
-          <line>47</line>
-          <properties documentPath="C:\Users\Sergio\Documents\GitHub\Book-Manager\Book Manager.API\Controllers\UsersControllers.cs" containingFunctionPresentation="Method 'Post'">
-            <startOffsets>
-              <option value="1080" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1081" />
-            </endOffsets>
-          </properties>
+          <line>46</line>
+          <properties documentPath="C:\Users\Sergio\Documents\GitHub\Book-Manager\Book Manager.API\Controllers\UsersControllers.cs" containingFunctionPresentation="Method 'Post'" />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>

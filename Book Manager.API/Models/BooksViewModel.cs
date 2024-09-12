@@ -21,7 +21,4 @@ public class BooksViewModel
     {
         return new BooksViewModel(book.Title, book.Author, book.PublishedYear, book.Genre);
     }
-    
-    
-    
 }
