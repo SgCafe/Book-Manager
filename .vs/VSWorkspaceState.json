@@ -2,9 +2,8 @@
   "ExpandedNodes": [
     "",
     "\\Book Manager.API",
-    "\\Book Manager.API\\Controllers",
-    "\\Book Manager.API\\Models"
+    "\\Book Manager.API\\Entities"
   ],
-  "SelectedNode": "\\Book Manager.API\\Controllers\\LoansControllers.cs",
+  "SelectedNode": "\\Book Manager.API\\Entities\\Loan.cs",
   "PreviewInSolutionExplorer": false
 }

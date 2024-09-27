@@ -1,0 +1,12 @@
+C:\Users\Sérgio\workspace\pessoal\Book-Manager\BookManager.Core\bin\Debug\net8.0\BookManager.Core.deps.json
+C:\Users\Sérgio\workspace\pessoal\Book-Manager\BookManager.Core\bin\Debug\net8.0\BookManager.Core.dll
+C:\Users\Sérgio\workspace\pessoal\Book-Manager\BookManager.Core\bin\Debug\net8.0\BookManager.Core.pdb
+C:\Users\Sérgio\workspace\pessoal\Book-Manager\BookManager.Core\obj\Debug\net8.0\BookManager.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sérgio\workspace\pessoal\Book-Manager\BookManager.Core\obj\Debug\net8.0\BookManager.Core.AssemblyInfoInputs.cache
+C:\Users\Sérgio\workspace\pessoal\Book-Manager\BookManager.Core\obj\Debug\net8.0\BookManager.Core.AssemblyInfo.cs
+C:\Users\Sérgio\workspace\pessoal\Book-Manager\BookManager.Core\obj\Debug\net8.0\BookManager.Core.csproj.CoreCompileInputs.cache
+C:\Users\Sérgio\workspace\pessoal\Book-Manager\BookManager.Core\obj\Debug\net8.0\BookManager.Core.sourcelink.json
+C:\Users\Sérgio\workspace\pessoal\Book-Manager\BookManager.Core\obj\Debug\net8.0\BookManager.Core.dll
+C:\Users\Sérgio\workspace\pessoal\Book-Manager\BookManager.Core\obj\Debug\net8.0\refint\BookManager.Core.dll
+C:\Users\Sérgio\workspace\pessoal\Book-Manager\BookManager.Core\obj\Debug\net8.0\BookManager.Core.pdb
+C:\Users\Sérgio\workspace\pessoal\Book-Manager\BookManager.Core\obj\Debug\net8.0\ref\BookManager.Core.dll

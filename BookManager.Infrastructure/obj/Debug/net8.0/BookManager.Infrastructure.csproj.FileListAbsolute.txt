@@ -1,0 +1,6 @@
+C:\Users\Sérgio\workspace\pessoal\Book-Manager\BookManager.Infrastructure\obj\Debug\net8.0\BookManager.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Sérgio\workspace\pessoal\Book-Manager\BookManager.Infrastructure\obj\Debug\net8.0\BookManager.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sérgio\workspace\pessoal\Book-Manager\BookManager.Infrastructure\obj\Debug\net8.0\BookManager.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Sérgio\workspace\pessoal\Book-Manager\BookManager.Infrastructure\obj\Debug\net8.0\BookManager.Infrastructure.AssemblyInfo.cs
+C:\Users\Sérgio\workspace\pessoal\Book-Manager\BookManager.Infrastructure\obj\Debug\net8.0\BookManager.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Sérgio\workspace\pessoal\Book-Manager\BookManager.Infrastructure\obj\Debug\net8.0\BookManager.Infrastructure.sourcelink.json

@@ -338,3 +338,4 @@ C:\Users\Sergio\Documents\GitHub\Book-Manager\Book Manager.API\obj\Debug\net8.0\
 C:\Users\Sergio\Documents\GitHub\Book-Manager\Book Manager.API\obj\Debug\net8.0\Book Manager.API.pdb
 C:\Users\Sergio\Documents\GitHub\Book-Manager\Book Manager.API\obj\Debug\net8.0\Book Manager.API.genruntimeconfig.cache
 C:\Users\Sergio\Documents\GitHub\Book-Manager\Book Manager.API\obj\Debug\net8.0\ref\Book Manager.API.dll
+C:\Users\Sérgio\workspace\pessoal\Book-Manager\Book Manager.API\bin\Debug\net8.0\Book Manager.API.staticwebassets.runtime.json

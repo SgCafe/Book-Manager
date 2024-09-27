@@ -1,5 +1,6 @@
-﻿using Book_Manager.API.Models;
-using Book_Manager.API.Persistence;
+﻿using Book_Manager.API.Persistence;
+using Book_Manager.Application.Models;
+using BookManager.Application.Services.Loans;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
@@ -9,97 +10,58 @@ namespace Book_Manager.API.Controllers;
 [Route("api/loans")]
 public class LoansControllers : ControllerBase
 {
-    private readonly BookManagerDbContext _context;
+    private readonly ILoansServices _services;
 
-    public LoansControllers(BookManagerDbContext context)
+    public LoansControllers(ILoansServices services)
     {
-        _context = context;
+        _services = services;
     }
 
     [HttpGet]
     public IActionResult GetAll(string search = "")
     {
-        var loans = _context.Loans
-            .Include(u => u.User)
-            .Include(b => b.Book)
-            .Where(l => !l.IsDeleted && (search == "" || l.Book.Title.Contains(search)))
-            .ToList();
-
-        var model = loans.Select(LoanViewModel.FromEntity).ToList();
-
-        return Ok(model);
+        var results = _services.GetAll(search);
+        
+        return Ok(results);
     }
 
     [HttpGet("{id}")]
     public IActionResult GetById(int id)
     {
-        var loan = _context.Loans.SingleOrDefault(l => l.Id == id);
+        var result = _services.GetById(id);
 
-        if (loan != null)
-        {
-            return NotFound();
-        }
-        
-        var model = LoanViewModel.FromEntity(loan);
-        
-        return Ok(model);
+        return Ok(result);
     }
 
     [HttpPost]
     public async Task<IActionResult> Post(CreateLoanInputModel model)
     {
-        var loan = model.ToEntity();
+        var result = _services.Post(model);
 
-        loan.Lend();
-
-        _context.Loans.Add(loan);
-        await _context.SaveChangesAsync();
-        
         return NoContent();
     }
 
     [HttpPut("{id}")]
     public async Task<IActionResult> Put(int id, UpdateLoanInputModel model)
     {
-        var loan = _context.Loans.SingleOrDefault(l => l.Id == id);
+        var result = _services.Put(id, model);
 
-        if (loan == null)
-        {
-            return NotFound();
-        }
-        
-        loan.Update(model.BookId, model.Cost);
-
-        _context.Loans.Update(loan);
-        await _context.SaveChangesAsync();
-        
         return NoContent();
     }
 
     [HttpDelete("{id}")]
     public async Task<IActionResult> Delete(int id)
     {
-        var loan = _context.Loans.SingleOrDefault(l => l.Id == id);
-    
-        loan.SetAsDeleted();
-        _context.Loans.Update(loan);
-        await _context.SaveChangesAsync();
-        
+        var result = _services.Delete(id);
+
         return NoContent();
     }
 
     [HttpPut("{idUser}/return-book")]
     public async Task<IActionResult> LoanReturned(int idUser, int idBook)
     {
-        var loanReturn = _context.Loans
-            .Include(u => u.User)
-            .Include(b => b.Book)
-            .SingleOrDefault(x => x.UserId == idUser && x.BookId == idBook);
-
-        loanReturn.Returned();
-        _context.Loans.Update(loanReturn);
-        await _context.SaveChangesAsync();
-
+        var result = _services.LoanReturned(idUser, idBook);
+        
         return NoContent();
     }
 }

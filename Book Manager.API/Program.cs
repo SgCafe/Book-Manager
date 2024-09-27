@@ -1,4 +1,6 @@
+using Book_Manager.API.ExceptionHandler;
 using Book_Manager.API.Persistence;
+using BookManager.Application;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -14,14 +16,26 @@ builder.Services.AddSwaggerGen();
 var connectionString = builder.Configuration.GetConnectionString("BookManagerCsPc");
 builder.Services.AddDbContext<BookManagerDbContext>(o => o.UseSqlServer(connectionString));
 
+builder.Services.AddApplication();
+
+builder.Services.AddExceptionHandler<ApiExceptionHandler>();
+builder.Services.AddProblemDetails();
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
-    app.UseSwaggerUI();
+    app.UseSwaggerUI(c =>
+    {
+        c.InjectStylesheet("/swagger-ui/SwaggerDark.css");
+    });
 }
+
+app.UseStaticFiles();
+
+app.UseExceptionHandler();
 
 app.UseHttpsRedirection();
 
