@@ -1,8 +1,6 @@
 ﻿using Book_Manager.API.Persistence;
 using Book_Manager.Application.Models;
-using Book_Manager.Core.Entities;
 using BookManager.Application.Models;
-using Microsoft.EntityFrameworkCore;
 
 namespace BookManager.Application.Services.Books
 {
@@ -18,7 +16,7 @@ namespace BookManager.Application.Services.Books
         public ResultViewModel<List<BooksViewModel>> GetAll(string search = "")
         {
             var books = _context.Books.Where(b => !b.IsDeleted).ToList();
-            
+
             if (books is null)
             {
                 return ResultViewModel<List<BooksViewModel>>.Erro("Os livros não foram encontradom.");

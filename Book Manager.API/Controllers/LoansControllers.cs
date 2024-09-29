@@ -1,8 +1,6 @@
-﻿using Book_Manager.API.Persistence;
-using Book_Manager.Application.Models;
+﻿using Book_Manager.Application.Models;
 using BookManager.Application.Services.Loans;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
 
 namespace Book_Manager.API.Controllers;
 
@@ -21,7 +19,7 @@ public class LoansControllers : ControllerBase
     public IActionResult GetAll(string search = "")
     {
         var results = _services.GetAll(search);
-        
+
         return Ok(results);
     }
 
@@ -34,7 +32,7 @@ public class LoansControllers : ControllerBase
     }
 
     [HttpPost]
-    public async Task<IActionResult> Post(CreateLoanInputModel model)
+    public IActionResult Post(CreateLoanInputModel model)
     {
         var result = _services.Post(model);
 
@@ -42,7 +40,7 @@ public class LoansControllers : ControllerBase
     }
 
     [HttpPut("{id}")]
-    public async Task<IActionResult> Put(int id, UpdateLoanInputModel model)
+    public IActionResult Put(int id, UpdateLoanInputModel model)
     {
         var result = _services.Put(id, model);
 
@@ -50,7 +48,7 @@ public class LoansControllers : ControllerBase
     }
 
     [HttpDelete("{id}")]
-    public async Task<IActionResult> Delete(int id)
+    public IActionResult Delete(int id)
     {
         var result = _services.Delete(id);
 
@@ -58,10 +56,10 @@ public class LoansControllers : ControllerBase
     }
 
     [HttpPut("{idUser}/return-book")]
-    public async Task<IActionResult> LoanReturned(int idUser, int idBook)
+    public IActionResult LoanReturned(int idUser, int idBook)
     {
         var result = _services.LoanReturned(idUser, idBook);
-        
+
         return NoContent();
     }
 }

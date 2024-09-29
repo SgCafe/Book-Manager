@@ -1,6 +1,4 @@
-﻿using Book_Manager.API.Entities;
-using Book_Manager.API.Enums;
-using Book_Manager.Core.Etities;
+﻿using Book_Manager.Core.Enums;
 
 namespace Book_Manager.Core.Entities;
 

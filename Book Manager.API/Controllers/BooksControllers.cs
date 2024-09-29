@@ -1,6 +1,4 @@
-﻿using Book_Manager.API.Models;
-using Book_Manager.API.Persistence;
-using Book_Manager.Application.Models;
+﻿using Book_Manager.Application.Models;
 using BookManager.Application.Services.Books;
 using Microsoft.AspNetCore.Mvc;
 
@@ -39,7 +37,7 @@ namespace Book_Manager.API.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> Post(CreateBookInputModel model)
+        public IActionResult Post(CreateBookInputModel model)
         {
             var result = _services.Post(model);
 
@@ -47,7 +45,7 @@ namespace Book_Manager.API.Controllers
         }
 
         [HttpDelete("{id}")]
-        public async Task<IActionResult> Delete(int id)
+        public IActionResult Delete(int id)
         {
             var result = _services.Delete(id);
 

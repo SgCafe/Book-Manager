@@ -1,5 +1,4 @@
 ﻿using Book_Manager.Core.Entities;
-using Book_Manager.Core.Etities;
 using Microsoft.EntityFrameworkCore;
 
 namespace Book_Manager.API.Persistence;

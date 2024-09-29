@@ -1,4 +1,4 @@
-﻿using Book_Manager.API.Entities;
+﻿using Book_Manager.Core.Entities;
 
 namespace Book_Manager.Application.Models
 {

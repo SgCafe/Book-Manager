@@ -50,7 +50,7 @@ namespace BookManager.Application.Services.Loans
             _context.Loans.Add(loan);
             _context.SaveChanges();
 
-            return ResultViewModel<int>.Success(loan.id);
+            return ResultViewModel<int>.Success(loan.Id);
         }
 
         public ResultViewModel Put(int id, UpdateLoanInputModel model)
@@ -108,7 +108,7 @@ namespace BookManager.Application.Services.Loans
             _context.SaveChanges();
 
             //return Ok("O livro está em dia");
-            return ResultViewModel.Success("O livro está em dia");
+            return ResultViewModel.Success();
         }
     }
 }

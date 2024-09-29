@@ -1,7 +1,6 @@
-﻿using Book_Manager.API.Models;
-using Book_Manager.API.Persistence;
+﻿using Book_Manager.Application.Models;
+using BookManager.Application.Services.Users;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
 
 namespace Book_Manager.API.Controllers;
 
@@ -9,57 +8,34 @@ namespace Book_Manager.API.Controllers;
 [Route("api/users")]
 public class UsersControllers : ControllerBase
 {
-    private readonly BookManagerDbContext _context;
+    private readonly IUsersServices _services;
 
-    public UsersControllers(BookManagerDbContext context)
+    public UsersControllers(IUsersServices services)
     {
-        _context = context;
+        _services = services;
     }
-    
+
     [HttpGet]
     public IActionResult GetAll(string search = "")
     {
-        var user = _context.Users
-            .Include(u => u.Loans)
-                .ThenInclude(b => b.Book)
-            .Where(u => !u.IsDeleted)
-            .ToList();
+        var result = _services.GetAll();
 
-        var model = user.Select(UsersViewModel.FromEntity).ToList();
-        
-        return Ok(model);
+        return Ok(result);
     }
 
     [HttpGet("{id}")]
     public IActionResult GetById(int id)
     {
-        var user = _context.Users
-            .Include(l => l.Loans)
-                .ThenInclude(b => b.Book)
-            .SingleOrDefault(u => u.Id == id);
+        var result = _services.GetById(id);
 
-        if (user is null)
-        {
-            return NotFound();
-        }
-
-        var model = UsersViewModel.FromEntity(user);
-        return Ok(model);
+        return Ok(result);
     }
 
     [HttpPost]
     public IActionResult Post(CreateUserInputModel model)
     {
-        var user = model.ToEntity();
+        var result = _services.Post(model);
 
-        if (model == null)
-        {
-            return NotFound();
-        }
-
-        _context.Users.Add(user);
-        _context.SaveChangesAsync();
-        
         return NoContent();
     }
 }
