@@ -10,3 +10,15 @@ C:\Users\Sergio\Documents\GitHub\Book-Manager\BookManager.Application\obj\Debug\
 C:\Users\Sergio\Documents\GitHub\Book-Manager\BookManager.Application\obj\Debug\net8.0\BookManager.Application.AssemblyInfo.cs
 C:\Users\Sergio\Documents\GitHub\Book-Manager\BookManager.Application\obj\Debug\net8.0\BookManager.Application.csproj.CoreCompileInputs.cache
 C:\Users\Sergio\Documents\GitHub\Book-Manager\BookManager.Application\obj\Debug\net8.0\BookManager.Application.sourcelink.json
+C:\Users\Sérgio\workspace\pessoal\Book-Manager\BookManager.Application\bin\Debug\net8.0\BookManager.Application.deps.json
+C:\Users\Sérgio\workspace\pessoal\Book-Manager\BookManager.Application\bin\Debug\net8.0\BookManager.Application.dll
+C:\Users\Sérgio\workspace\pessoal\Book-Manager\BookManager.Application\bin\Debug\net8.0\BookManager.Application.pdb
+C:\Users\Sérgio\workspace\pessoal\Book-Manager\BookManager.Application\bin\Debug\net8.0\BookManager.Core.dll
+C:\Users\Sérgio\workspace\pessoal\Book-Manager\BookManager.Application\bin\Debug\net8.0\BookManager.Infrastructure.dll
+C:\Users\Sérgio\workspace\pessoal\Book-Manager\BookManager.Application\bin\Debug\net8.0\BookManager.Core.pdb
+C:\Users\Sérgio\workspace\pessoal\Book-Manager\BookManager.Application\bin\Debug\net8.0\BookManager.Infrastructure.pdb
+C:\Users\Sérgio\workspace\pessoal\Book-Manager\BookManager.Application\obj\Debug\net8.0\BookMana.A17D7DE5.Up2Date
+C:\Users\Sérgio\workspace\pessoal\Book-Manager\BookManager.Application\obj\Debug\net8.0\BookManager.Application.dll
+C:\Users\Sérgio\workspace\pessoal\Book-Manager\BookManager.Application\obj\Debug\net8.0\refint\BookManager.Application.dll
+C:\Users\Sérgio\workspace\pessoal\Book-Manager\BookManager.Application\obj\Debug\net8.0\BookManager.Application.pdb
+C:\Users\Sérgio\workspace\pessoal\Book-Manager\BookManager.Application\obj\Debug\net8.0\ref\BookManager.Application.dll

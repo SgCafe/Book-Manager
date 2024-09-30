@@ -1,14 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Sergio\\Documents\\GitHub\\Book-Manager\\",
+  "WorkspaceRootPath": "C:\\Users\\S\u00E9rgio\\workspace\\pessoal\\Book-Manager\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{613C25E5-180A-40A8-A9E4-ED259BB304EA}|BookManager.Infrastructure\\BookManager.Infrastructure.csproj|c:\\users\\sergio\\documents\\github\\book-manager\\bookmanager.infrastructure\\persistence\\migrations\\20240910212422_primeiramigration.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{613C25E5-180A-40A8-A9E4-ED259BB304EA}|BookManager.Infrastructure\\BookManager.Infrastructure.csproj|c:\\users\\s\u00E9rgio\\workspace\\pessoal\\book-manager\\bookmanager.infrastructure\\persistence\\migrations\\bookmanagerdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{613C25E5-180A-40A8-A9E4-ED259BB304EA}|BookManager.Infrastructure\\BookManager.Infrastructure.csproj|solutionrelative:bookmanager.infrastructure\\persistence\\migrations\\bookmanagerdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{613C25E5-180A-40A8-A9E4-ED259BB304EA}|BookManager.Infrastructure\\BookManager.Infrastructure.csproj|c:\\users\\s\u00E9rgio\\workspace\\pessoal\\book-manager\\bookmanager.infrastructure\\persistence\\migrations\\20240910212422_primeiramigration.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{613C25E5-180A-40A8-A9E4-ED259BB304EA}|BookManager.Infrastructure\\BookManager.Infrastructure.csproj|solutionrelative:bookmanager.infrastructure\\persistence\\migrations\\20240910212422_primeiramigration.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{47DE3763-AB8F-4589-B106-E5880D941E0E}|Book Manager.API\\Book Manager.API.csproj|c:\\users\\sergio\\documents\\github\\book-manager\\book manager.api\\controllers\\userscontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{47DE3763-AB8F-4589-B106-E5880D941E0E}|Book Manager.API\\Book Manager.API.csproj|solutionrelative:book manager.api\\controllers\\userscontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{47DE3763-AB8F-4589-B106-E5880D941E0E}|Book Manager.API\\Book Manager.API.csproj|c:\\users\\s\u00E9rgio\\workspace\\pessoal\\book-manager\\book manager.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47DE3763-AB8F-4589-B106-E5880D941E0E}|Book Manager.API\\Book Manager.API.csproj|solutionrelative:book manager.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,11 +26,11 @@
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+              "Name": "ST:128:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:128:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Bookmark",
@@ -63,27 +67,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "20240910212422_PrimeiraMigration.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Sergio\\Documents\\GitHub\\Book-Manager\\BookManager.Infrastructure\\Persistence\\Migrations\\20240910212422_PrimeiraMigration.Designer.cs",
-              "RelativeDocumentMoniker": "BookManager.Infrastructure\\Persistence\\Migrations\\20240910212422_PrimeiraMigration.Designer.cs",
-              "ToolTip": "C:\\Users\\Sergio\\Documents\\GitHub\\Book-Manager\\BookManager.Infrastructure\\Persistence\\Migrations\\20240910212422_PrimeiraMigration.Designer.cs",
-              "RelativeToolTip": "BookManager.Infrastructure\\Persistence\\Migrations\\20240910212422_PrimeiraMigration.Designer.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAswBIAAAApAAAAAAAAAA==",
+              "Title": "BookManagerDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\S\u00E9rgio\\workspace\\pessoal\\Book-Manager\\BookManager.Infrastructure\\Persistence\\Migrations\\BookManagerDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "BookManager.Infrastructure\\Persistence\\Migrations\\BookManagerDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\S\u00E9rgio\\workspace\\pessoal\\Book-Manager\\BookManager.Infrastructure\\Persistence\\Migrations\\BookManagerDbContextModelSnapshot.cs",
+              "RelativeToolTip": "BookManager.Infrastructure\\Persistence\\Migrations\\BookManagerDbContextModelSnapshot.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-29T23:49:21.958Z",
+              "WhenOpened": "2024-09-30T23:46:13.092Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "UsersControllers.cs",
-              "DocumentMoniker": "C:\\Users\\Sergio\\Documents\\GitHub\\Book-Manager\\Book Manager.API\\Controllers\\UsersControllers.cs",
-              "RelativeDocumentMoniker": "Book Manager.API\\Controllers\\UsersControllers.cs",
-              "ToolTip": "C:\\Users\\Sergio\\Documents\\GitHub\\Book-Manager\\Book Manager.API\\Controllers\\UsersControllers.cs",
-              "RelativeToolTip": "Book Manager.API\\Controllers\\UsersControllers.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
+              "Title": "20240910212422_PrimeiraMigration.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\S\u00E9rgio\\workspace\\pessoal\\Book-Manager\\BookManager.Infrastructure\\Persistence\\Migrations\\20240910212422_PrimeiraMigration.Designer.cs",
+              "RelativeDocumentMoniker": "BookManager.Infrastructure\\Persistence\\Migrations\\20240910212422_PrimeiraMigration.Designer.cs",
+              "ToolTip": "C:\\Users\\S\u00E9rgio\\workspace\\pessoal\\Book-Manager\\BookManager.Infrastructure\\Persistence\\Migrations\\20240910212422_PrimeiraMigration.Designer.cs",
+              "RelativeToolTip": "BookManager.Infrastructure\\Persistence\\Migrations\\20240910212422_PrimeiraMigration.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-29T23:45:37.722Z",
+              "WhenOpened": "2024-09-30T23:46:01.873Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\S\u00E9rgio\\workspace\\pessoal\\Book-Manager\\Book Manager.API\\Program.cs",
+              "RelativeDocumentMoniker": "Book Manager.API\\Program.cs",
+              "ToolTip": "C:\\Users\\S\u00E9rgio\\workspace\\pessoal\\Book-Manager\\Book Manager.API\\Program.cs",
+              "RelativeToolTip": "Book Manager.API\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T23:45:23.838Z",
               "EditorCaption": ""
             }
           ]

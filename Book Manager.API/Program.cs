@@ -1,5 +1,5 @@
 using Book_Manager.API.ExceptionHandler;
-using Book_Manager.API.Persistence;
+using Book_Manager.Infrastructure.Persistence;
 using BookManager.Application;
 using Microsoft.EntityFrameworkCore;
 

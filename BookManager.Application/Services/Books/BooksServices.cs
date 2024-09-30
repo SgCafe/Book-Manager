@@ -1,5 +1,5 @@
-﻿using Book_Manager.API.Persistence;
-using Book_Manager.Application.Models;
+﻿using Book_Manager.Application.Models;
+using Book_Manager.Infrastructure.Persistence;
 using BookManager.Application.Models;
 
 namespace BookManager.Application.Services.Books

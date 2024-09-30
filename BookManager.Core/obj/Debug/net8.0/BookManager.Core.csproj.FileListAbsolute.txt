@@ -22,3 +22,4 @@ C:\Users\Sergio\Documents\GitHub\Book-Manager\BookManager.Core\bin\Debug\net8.0\
 C:\Users\Sergio\Documents\GitHub\Book-Manager\BookManager.Core\bin\Debug\net8.0\BookManager.Core.dll
 C:\Users\Sergio\Documents\GitHub\Book-Manager\BookManager.Core\bin\Debug\net8.0\BookManager.Core.pdb
 C:\Users\Sergio\Documents\GitHub\Book-Manager\BookManager.Core\obj\Debug\net8.0\ref\BookManager.Core.dll
+C:\Users\Sérgio\workspace\pessoal\Book-Manager\BookManager.Core\obj\Debug\net8.0\BookManager.Core.csproj.AssemblyReference.cache

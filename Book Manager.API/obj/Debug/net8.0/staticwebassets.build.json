@@ -1,0 +1,39 @@
+{
+  "Version": 1,
+  "Hash": "aA615Tov50FmOUBpAicGdXPlxsaHsMbJ2Nxsq1BNT7w=",
+  "Source": "Book Manager.API",
+  "BasePath": "_content/Book Manager.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Book Manager.API\\wwwroot",
+      "Source": "Book Manager.API",
+      "ContentRoot": "C:\\Users\\Sérgio\\workspace\\pessoal\\Book-Manager\\Book Manager.API\\wwwroot\\",
+      "BasePath": "_content/Book Manager.API",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Sérgio\\workspace\\pessoal\\Book-Manager\\Book Manager.API\\wwwroot\\swagger-ui\\SwaggerDark.css",
+      "SourceId": "Book Manager.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Sérgio\\workspace\\pessoal\\Book-Manager\\Book Manager.API\\wwwroot\\",
+      "BasePath": "_content/Book Manager.API",
+      "RelativePath": "swagger-ui/SwaggerDark.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\swagger-ui\\SwaggerDark.css"
+    }
+  ]
+}

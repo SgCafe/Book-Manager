@@ -1,7 +1,7 @@
 ﻿using Book_Manager.Core.Entities;
 using Microsoft.EntityFrameworkCore;
 
-namespace Book_Manager.API.Persistence;
+namespace Book_Manager.Infrastructure.Persistence;
 
 public class BookManagerDbContext : DbContext
 {
