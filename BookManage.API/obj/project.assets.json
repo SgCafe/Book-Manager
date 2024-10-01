@@ -4550,9 +4550,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Sérgio\\workspace\\pessoal\\Book-Manager\\BookManage.API\\BookManage.API.csproj",
-      "projectName": "BookManage.API",
-      "projectPath": "C:\\Users\\Sérgio\\workspace\\pessoal\\Book-Manager\\BookManage.API\\BookManage.API.csproj",
+      "projectUniqueName": "C:\\Users\\Sérgio\\workspace\\pessoal\\Book-Manager\\BookManage.API\\BookManager.API.csproj",
+      "projectName": "BookManager.API",
+      "projectPath": "C:\\Users\\Sérgio\\workspace\\pessoal\\Book-Manager\\BookManage.API\\BookManager.API.csproj",
       "packagesPath": "C:\\Users\\Sérgio\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Sérgio\\workspace\\pessoal\\Book-Manager\\BookManage.API\\obj\\",
       "projectStyle": "PackageReference",

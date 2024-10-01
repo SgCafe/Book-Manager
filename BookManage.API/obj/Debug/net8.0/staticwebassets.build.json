@@ -1,27 +1,27 @@
 {
   "Version": 1,
-  "Hash": "9Ugk4FMV+43q8zZFBqTe23e8oAajS5SOGjjxm2r21hA=",
-  "Source": "BookManage.API",
-  "BasePath": "_content/BookManage.API",
+  "Hash": "/hfEcXnJIrYlAHeUQfSHCWjr2P5KTHv7C2m5f74briI=",
+  "Source": "BookManager.API",
+  "BasePath": "_content/BookManager.API",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [
     {
-      "Name": "BookManage.API\\wwwroot",
-      "Source": "BookManage.API",
+      "Name": "BookManager.API\\wwwroot",
+      "Source": "BookManager.API",
       "ContentRoot": "C:\\Users\\Sérgio\\workspace\\pessoal\\Book-Manager\\BookManage.API\\wwwroot\\",
-      "BasePath": "_content/BookManage.API",
+      "BasePath": "_content/BookManager.API",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
       "Identity": "C:\\Users\\Sérgio\\workspace\\pessoal\\Book-Manager\\BookManage.API\\wwwroot\\swagger-ui\\SwaggerDark.css",
-      "SourceId": "BookManage.API",
+      "SourceId": "BookManager.API",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Sérgio\\workspace\\pessoal\\Book-Manager\\BookManage.API\\wwwroot\\",
-      "BasePath": "_content/BookManage.API",
+      "BasePath": "_content/BookManager.API",
       "RelativePath": "swagger-ui/SwaggerDark.css",
       "AssetKind": "All",
       "AssetMode": "All",

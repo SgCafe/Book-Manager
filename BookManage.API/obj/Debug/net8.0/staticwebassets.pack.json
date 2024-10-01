@@ -5,20 +5,20 @@
       "PackagePath": "staticwebassets\\swagger-ui\\SwaggerDark.css"
     },
     {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.BookManage.API.Microsoft.AspNetCore.StaticWebAssets.props",
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.BookManager.API.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },
     {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.BookManage.API.props",
-      "PackagePath": "build\\BookManage.API.props"
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.BookManager.API.props",
+      "PackagePath": "build\\BookManager.API.props"
     },
     {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.BookManage.API.props",
-      "PackagePath": "buildMultiTargeting\\BookManage.API.props"
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.BookManager.API.props",
+      "PackagePath": "buildMultiTargeting\\BookManager.API.props"
     },
     {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.BookManage.API.props",
-      "PackagePath": "buildTransitive\\BookManage.API.props"
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.BookManager.API.props",
+      "PackagePath": "buildTransitive\\BookManager.API.props"
     }
   ],
   "ElementsToRemove": []
