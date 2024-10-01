@@ -1,0 +1,25 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Sérgio\\workspace\\pessoal\\Book-Manager\\BookManage.API\\wwwroot\\swagger-ui\\SwaggerDark.css",
+      "PackagePath": "staticwebassets\\swagger-ui\\SwaggerDark.css"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.BookManage.API.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.BookManage.API.props",
+      "PackagePath": "build\\BookManage.API.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.BookManage.API.props",
+      "PackagePath": "buildMultiTargeting\\BookManage.API.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.BookManage.API.props",
+      "PackagePath": "buildTransitive\\BookManage.API.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

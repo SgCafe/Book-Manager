@@ -58,9 +58,10 @@ public class Loan : BaseEntity
         }
     }
 
-    public void Update(int bookId, decimal cost)
+    public void Update(int bookId, int userId, decimal cost)
     {
         BookId = bookId;
+        UserId = userId;
         Cost = cost;
     }
 }

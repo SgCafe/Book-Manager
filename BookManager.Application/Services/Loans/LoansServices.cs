@@ -29,9 +29,12 @@ namespace BookManager.Application.Services.Loans
 
         public ResultViewModel<LoanViewModel> GetById(int id)
         {
-            var loan = _context.Loans.SingleOrDefault(l => l.Id == id);
+            var loan = _context.Loans
+                .Include(b => b.Book)
+                .Include(u => u.User)
+                .SingleOrDefault(l => l.Id == id);
 
-            if (loan != null)
+            if (loan == null)
             {
                 return ResultViewModel<LoanViewModel>.Erro("Empréstimo não encontrado.");
             }
@@ -55,14 +58,17 @@ namespace BookManager.Application.Services.Loans
 
         public ResultViewModel Put(int id, UpdateLoanInputModel model)
         {
-            var loan = _context.Loans.SingleOrDefault(l => l.Id == id);
+            var loan = _context.Loans
+                .Include(b => b.Book)
+                .Include(u => u.User)
+                .SingleOrDefault(l => l.Id == id);
 
             if (loan == null)
             {
                 return ResultViewModel.Erro("Empréstimo não encontrado.");
             }
 
-            loan.Update(model.BookId, model.Cost);
+            loan.Update(model.BookId, model.UserId ,model.Cost);
 
             _context.Loans.Update(loan);
             _context.SaveChanges();
